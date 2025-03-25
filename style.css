@@ -7,21 +7,38 @@ body {
     padding: 0;
 }
 header {
-    background-color: #004d00;
+    background-color: #5a7735; /* Verde Alecrim */
     color: white;
     padding: 20px;
+    text-align: left;
+    position: relative;
+}
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
 }
 nav button {
     background-color: #008000;
     color: white;
     border: none;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 15px 25px;
+    margin: 10px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 nav button:hover {
     background-color: #006400;
+    transform: scale(1.1);
 }
 .conteudo {
     display: none;
